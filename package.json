@@ -1,6 +1,6 @@
 {
   "name": "ableton-css-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A helper binary for developing control surface scripts for Ableton Live.",
   "repository": "https://github.com/phikes/ableton-css-helper",
   "author": "Phillip Kessels",
