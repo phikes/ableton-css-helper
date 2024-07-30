@@ -1,8 +1,11 @@
 {
   "name": "ableton-css-helper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A helper binary for developing control surface scripts for Ableton Live.",
-  "repository": "https://github.com/phikes/ableton-css-helper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phikes/ableton-css-helper.git"
+  },
   "author": "Phillip Kessels",
   "license": "MIT",
   "devDependencies": {
@@ -29,7 +32,7 @@
     "untildify": "^5.0.0"
   },
   "bin": {
-    "ableton-css-helper": "./bin/run.js"
+    "ableton-css-helper": "bin/run.js"
   },
   "oclif": {
     "bin": "ableton-css-helper",
