@@ -6,7 +6,18 @@ A helper binary for developing control surface scripts for Ableton Live.
 
 [![asciicast](https://asciinema.org/a/FA8Tb8WY1LSmsUxT7C1GTYRLK.svg)](https://asciinema.org/a/FA8Tb8WY1LSmsUxT7C1GTYRLK)
 
+# Installation
+
+Make sure node ^20 is installed.
+
+```
+yarn global add ableton-css-helper
+# or
+npm install -g ableton-css-helper
+```
+
 ## Usage/Examples
+
 
 ```
 Watch the current directory, restart Live upon changes and print Live's output
