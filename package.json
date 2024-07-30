@@ -1,0 +1,48 @@
+{
+  "name": "ableton-css-helper",
+  "version": "1.0.0",
+  "description": "A helper binary for developing control surface scripts for Ableton Live.",
+  "repository": "https://github.com/phikes/ableton-css-helper",
+  "author": "Phillip Kessels",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/fb-watchman": "^2.0.4",
+    "@types/node": "^18",
+    "@types/parse-gitignore": "^1.0.2",
+    "@types/rsync": "^0.4.36",
+    "@types/semver": "^7.5.8",
+    "@types/tail": "^2.2.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "@oclif/core": "^4.0.16",
+    "fb-watchman": "^2.0.2",
+    "glob": "^11.0.0",
+    "ignore": "^5.3.1",
+    "parse-gitignore": "^2.0.0",
+    "rsync": "^0.6.1",
+    "run-applescript": "^7.0.0",
+    "semver": "^7.6.3",
+    "tail": "^2.2.6",
+    "terminal-link": "^3.0.0",
+    "untildify": "^5.0.0"
+  },
+  "bin": {
+    "ableton-css-helper": "./bin/run.js"
+  },
+  "oclif": {
+    "bin": "ableton-css-helper",
+    "commands": "./dist/commands",
+    "dirname": "ableton-css-helper",
+    "topicSeparator": " "
+  },
+  "engines": {
+    "node": "^20.0.0"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  }
+}
